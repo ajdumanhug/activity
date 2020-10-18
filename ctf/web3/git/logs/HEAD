@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 e039a6684f53e818926d3f62efd25217b25fc97e Mark Zuckerberg <thezuck@therealzuck.zuck> 1486853661 +0000	commit (initial): First commit on my website
-e039a6684f53e818926d3f62efd25217b25fc97e 9e9ce4da43d0d2dc10ece64f75ec9cab1f4e5de0 Mark Zuckerberg <thezuck@therealzuck.zuck> 1486853667 +0000	commit: Fixed a spelling error
-9e9ce4da43d0d2dc10ece64f75ec9cab1f4e5de0 e039a6684f53e818926d3f62efd25217b25fc97e Mark Zuckerberg <thezuck@therealzuck.zuck> 1486853668 +0000	reset: moving to HEAD~1
-e039a6684f53e818926d3f62efd25217b25fc97e 4eec6b9c6e464c35fff1efb8444dd0ac1ae67b30 Mark Zuckerberg <thezuck@therealzuck.zuck> 1486853672 +0000	commit: Wooops, didn't want to commit that. Rebased.
