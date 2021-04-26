@@ -18,7 +18,7 @@ $(window).load(function() {
         });
         MESSAGES.push({
             delay: 3200,
-            text: ' —  Pussy Lover.'
+            text: ' —  Cat Lover.'
         });
         MESSAGES.push({
             delay: 4800,
