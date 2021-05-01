@@ -5,7 +5,7 @@ $(window).load(function() {
         MESSAGES = [];
         MESSAGES.push({
             delay: 0,
-            text: 'OLIVER WOODFLINT'
+            text: 'BRYAN PINEDA'
         });
 
         MESSAGES.push({
@@ -18,7 +18,7 @@ $(window).load(function() {
         });
         MESSAGES.push({
             delay: 3200,
-            text: ' —  Cat Lover.'
+            text: ' —  Dog Lover.'
         });
         MESSAGES.push({
             delay: 4800,
